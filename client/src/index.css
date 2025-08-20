@@ -1,0 +1,15 @@
+/* Make full viewport height and remove default margins */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gray background and center everything inside */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(162, 154, 154); /* page gray */
+  font-family: Arial, sans-serif;
+}
